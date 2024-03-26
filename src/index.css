@@ -8,14 +8,6 @@
   box-sizing: border-box;
 }
 
-body {
-  color: white;
-  overflow-x: hidden;
-  background: #000;
-  border-color: #3b3b3b;
-  user-select: none;
-}
-
 .scrim-max-width {
   margin-inline-start: auto;
   margin-inline-end: auto;
