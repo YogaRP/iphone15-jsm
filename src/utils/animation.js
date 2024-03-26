@@ -30,7 +30,4 @@ export const animateWithGsapTimeline = (
 
   timeline.to(firstTarget, { ...animationProps, ease: "power2,inOut" }, "<");
   timeline.to(secondTarget, { ...animationProps, ease: "power2,inOut" }, "<");
-
-  console.log(rotationRef);
-  console.log(rotationState);
 };
