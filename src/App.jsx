@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <Highlights />
-      <Model />
+      {window.innerWidth > 768 ? <Model /> : ""}
       <Features />
       <HowItWorks />
       <Footer />

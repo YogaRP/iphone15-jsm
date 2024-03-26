@@ -87,7 +87,7 @@ const Model = () => {
                 bottom: 0,
                 left: 0,
                 right: 0,
-                overflow: "hidden",
+                overflow: "scroll",
               }}
               eventSource={document.getElementById("root")}
             >

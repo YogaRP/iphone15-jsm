@@ -19,7 +19,7 @@ body {
 }
 
 canvas {
-  touch-action: auto !important;
+  touch-action: none;
 }
 
 .scrim-max-width {
